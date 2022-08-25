@@ -31,7 +31,7 @@ const Footer = () => (
         <p className='text-dimWhite font-poppins font-normal'>
           <span className='font-abel font-normal text-[18px] leading-[27px]'>Copyright</span>
           <span className='px-2'>&copy;</span>
-          <span className='font-poppins font-normal text-[18px] leading-[27px]'>2021 HooBank. All Rights Reserved.</span>
+          <span className='font-poppins text-[18px] leading-[27px]' style={{fontWeight: "100"}}>2021 HooBank. All Rights Reserved.</span>
         </p>
         <p className='flex'>
           {socialMedia.map(social => (
